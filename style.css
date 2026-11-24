@@ -52,6 +52,18 @@ figcaption{color:var(--quiet);font-size:15px;margin-top:10px}
 .toc li.l3{padding-left:16px}
 .toc a{text-decoration:none}
 h2[id],h3[id]{scroll-margin-top:84px}
+.more{margin:10px 0 0;font-weight:600}
+.more a{text-decoration:none}
+.cards .more{color:var(--accent)}
+.note{color:var(--quiet)}
+.doc h2.divider{margin-top:72px}
+.manifesto{font-size:18.5px;line-height:1.75}
+.manifesto h2{font-size:clamp(24px,3.2vw,30px)}
+.manifesto h2 + p:not(.tese){font-size:1.08em}
+.doc .cards h3{margin:12px 0 6px}
+.manifesto .tese{border-left:3px solid var(--accent);padding:4px 0 4px 16px;margin:18px 0}
+.manifesto .tese strong{color:var(--accent)}
+.manifesto > p:last-of-type{margin-top:40px}
 .foot{border-top:1px solid var(--edge);padding:28px clamp(16px,4vw,40px);color:var(--quiet);font-size:14px;text-align:center}
 .foot p{margin:4px 0}
 @media (max-width:600px){.top{position:static}body{font-size:16px}.hero{padding:48px 0 40px}section{padding:36px 0}}
