@@ -24,6 +24,7 @@ h2{font-size:clamp(24px,3.4vw,32px);margin:0 0 16px}
 .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
 .btn{display:inline-block;padding:12px 20px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
 .btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.focos .lead{margin-bottom:20px}
 .cards{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
 .cards li{background:#fff;border:1px solid var(--edge);border-radius:14px;padding:20px}
 .cards .n{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--tint);color:var(--accent);font-weight:700;font-size:14px}
